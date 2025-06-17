@@ -1,4 +1,4 @@
-📌Repositório com exercícios em JavaScript, HTML e CSS, onde treinarei front-end para as matérias da faculdade.
+📌Repositório com exercícios em JavaScript, HTML e CSS, onde treinarei front-end para as matérias da faculdade.  
 🔗 Link para visualizar o site: https://deivessss.github.io/Exercicios-JS-HTML-e-CSS/
 ---
 ### 📌 Exercício 1:
