@@ -1,0 +1,57 @@
+/* Limpando formatações: */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o Body */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Centralizando o título e texto */
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+/* Criar uma box para os links */
+
+section{
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando os links */
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Rodapé */
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: #777;
+    margin: 60px;
+}
