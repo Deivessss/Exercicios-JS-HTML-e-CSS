@@ -1,0 +1,54 @@
+/* Limpando a formatação padrão: */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando a página inteira: */
+body{
+    background-color: rgb(25, 129, 214);
+    font: normal 15pt Arial;
+}
+
+/* Título: */
+header{
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+/* Criando container e ajustando o conteúdo principal: */
+section{
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inicio, #fim, #passo{
+    margin: 10px;
+}
+
+#button{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding: 3px 8px;
+}
+
+#resultado{
+    margin-top: 15px;
+}
+
+
+/* Rodapé: */
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
