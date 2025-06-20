@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <!--inputs para o usuário inserir as informações, 
+    que posteriormente serão tratadas em JavaScript-->
+    <section>
+        <div>
+            <p>Ano de nascimento: 
+                <input type="number" name="ano" id="ano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="mas" checked>
+                <label for="mas">Masculino</label>
+
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <!-- Resultado, que será inserido em JavaScript -->
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+        
+        <!-- Criando a tag img para adicionar a imagem pelo JavaScript: -->
+        <div>
+            <img id="img" src="" alt="Foto de uma pessoa, que será gerada pelo verificador">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
