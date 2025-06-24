@@ -14,3 +14,6 @@ Site onde o usuário informa números: o valor de início, fim e o passo. O site
 
 ### 📌 Exercício 4: 
 Site onde o usuário insere qualquer número e vê a tabuada de multiplicação desse número. 
+
+### 📌 Exercício 5: 
+Site onde o usuário insere quantos números quiser, de 1 até 100, sem repetir. Os números serão analisados e será informado: quantos números foram cadastrados, o maior valor, o menor valor, a soma e a média.  
